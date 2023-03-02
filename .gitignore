@@ -1,3 +1,5 @@
 venv
 .idea
 product_classes.py
+__pycache__
+*/__pycache__
