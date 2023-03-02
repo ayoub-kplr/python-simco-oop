@@ -53,5 +53,5 @@ class ClassHandler:
                 super_attr.remove("subclasses")
                 subclass_defs = self.generate_class_hierarchy(class_attrs["subclasses"], class_name, super_attr)
                 class_defs += subclass_defs
-
+        print(class_defs)
         return class_defs
