@@ -1,10 +1,9 @@
-from handlers.class_handler import ClassHandler
-from handlers.file_hanlder import *
-from handlers.tree_hanlder import TreeHandler
+from handlers import *
 
 
 def sep():
     print("====================\n")
+
 
 # Handlers
 class_handler = ClassHandler()
